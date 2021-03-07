@@ -1,6 +1,6 @@
 [tool.poetry]
 name = "addon_coiled_spring"
-version = "0.1.0"
+version = "1.0.0"
 description = "Blender addon coiled spring mesh addon"
 authors = ["Chandan Prasad M <prasadchandan@gmail.com>"]
 license = "MIT"
