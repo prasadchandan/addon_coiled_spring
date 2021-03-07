@@ -1,0 +1,18 @@
+[tool.poetry]
+name = "addon_coiled_spring"
+version = "0.1.0"
+description = "Blender addon coiled spring mesh addon"
+authors = ["Chandan Prasad M <prasadchandan@gmail.com>"]
+license = "MIT"
+
+[tool.poetry.dependencies]
+python = "^3.8"
+
+[tool.poetry.dev-dependencies]
+"fake-bpy-module-2.80" = "^20210304"
+numpy = "^1.20.1"
+autopep8 = "^1.5.5"
+
+[build-system]
+requires = ["poetry-core>=1.0.0"]
+build-backend = "poetry.core.masonry.api"
